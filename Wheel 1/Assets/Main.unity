@@ -122,9 +122,12 @@ GameObject:
   m_Component:
   - component: {fileID: 23635157}
   - component: {fileID: 23635156}
+<<<<<<< HEAD
   - component: {fileID: 23635158}
   - component: {fileID: 23635159}
   - component: {fileID: 23635160}
+=======
+>>>>>>> parent of bbe9eea... Ago e collisioni
   m_Layer: 0
   m_Name: Ago
   m_TagString: Untagged
@@ -194,6 +197,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
+<<<<<<< HEAD
 --- !u!61 &23635158
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -253,6 +257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9220f4e36f04b409997ce8c6307c5551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of bbe9eea... Ago e collisioni
 --- !u!1 &304127846
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +504,7 @@ GameObject:
   - component: {fileID: 839656843}
   - component: {fileID: 839656844}
   m_Layer: 0
-  m_Name: Try Again
+  m_Name: Try again
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -707,7 +713,7 @@ GameObject:
   - component: {fileID: 1331376367}
   - component: {fileID: 1331376368}
   m_Layer: 0
-  m_Name: Try Again
+  m_Name: Sleep on it
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -971,7 +977,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010712506}
   m_LocalRotation: {x: 0, y: 0, z: 0.54537064, w: 0.838195}
-  m_LocalPosition: {x: 12.4, y: -9.54, z: 0}
+  m_LocalPosition: {x: -14.9, y: 1.82, z: 0}
   m_LocalScale: {x: 1, y: 0.3875, z: 1}
   m_Children: []
   m_Father: {fileID: 1274777835}
