@@ -8,6 +8,7 @@ public class mainScript : MonoBehaviour
 	public float Speed = 600;
 	public bool isSpin = true;
 
+
 	void Update(){
 
 		Rotate ();
