@@ -12,7 +12,7 @@ public class main : MonoBehaviour
 
     void Start()
     {
-    	speed = maxSpeed;
+    	speed = 0;
     }
    
 

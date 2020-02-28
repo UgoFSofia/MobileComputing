@@ -404,7 +404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &531771358
 RectTransform:
   m_ObjectHideFlags: 0
@@ -727,7 +727,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESET
+  m_Text: SPIN
 --- !u!222 &621654832
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1389,12 +1389,12 @@ GameObject:
   - component: {fileID: 1954706505}
   - component: {fileID: 1954706504}
   m_Layer: 0
-  m_Name: Reset
+  m_Name: Spin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1954706503
 RectTransform:
   m_ObjectHideFlags: 0
