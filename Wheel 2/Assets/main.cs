@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class main : MonoBehaviour
 {
-    public float speed = 600;
+    private float speed;
     public bool isSpin = true;
+    public float maxSpeed = 600;
+
     public GameObject pointer;
+
+    void Start()
+    {
+    	speed = maxSpeed;
+    }
    
 
     void Update()
@@ -30,6 +37,7 @@ public class main : MonoBehaviour
 
     public void Stop()
     {
+        isSpin = false;
     	speed --;
 
     	if (speed<=0)
@@ -37,5 +45,12 @@ public class main : MonoBehaviour
     		pointer.GetComponent<BoxCollider> ().enabled = true;
     		speed = 0;
     	}
+    }
+
+    public void Reset()
+    {
+    	isSpin = true;
+    	pointer.GetComponent<BoxCollider> ().enabled = false;
+    	speed = maxSpeed;
     }
 }
